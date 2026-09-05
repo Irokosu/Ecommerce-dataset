@@ -102,6 +102,7 @@ st.markdown(
     .block-container {padding-top: 2rem; padding-bottom: 3rem;}
     [data-testid="stMetricValue"] {font-size: 1.7rem;}
     .dashboard-subtitle {color: #64748b; font-size: 1.05rem; margin-top: -0.7rem;}
+    .dashboard-author {color: #0f766e; font-size: 1.25rem; font-weight: 700; margin-top: 0.35rem; margin-bottom: 1.5rem;}
     </style>
     """,
     unsafe_allow_html=True,
@@ -110,6 +111,10 @@ st.markdown(
 st.title("E-commerce Intelligence Dashboard")
 st.markdown(
     "<p class='dashboard-subtitle'>A decision-focused view of sales, customers, products, markets, and operational risk.</p>",
+    unsafe_allow_html=True,
+)
+st.markdown(
+    "<p class='dashboard-author'>Created by Opeyemi Samson Irokosu</p>",
     unsafe_allow_html=True,
 )
 
