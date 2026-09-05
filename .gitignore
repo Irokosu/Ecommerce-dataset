@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local exports and temporary files
+data/cleaned_ecommerce.csv
+data/completed_sales_ecommerce.csv
+data/customer_rfm_segments.csv
+data/cancellations_and_returns.csv
+data/product_performance.csv
+data/repeat_purchase_analysis.csv
+data/cohort_retention_analysis.csv
+data/cohort_revenue_analysis.csv
+data/product_return_rate_analysis.csv
+data/filtered_completed_sales.csv
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
